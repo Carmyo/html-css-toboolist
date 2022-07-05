@@ -25,10 +25,13 @@ body {
 #task {
     color: #ffffff;
     background-color: #47ADF1;
+    padding-left: 50px;
+
 }
 
 #section {
     color: rgb(163, 162, 162);
+    border-radius: 1px;
 }
 
 #button {
@@ -36,6 +39,7 @@ body {
     padding: 10px;
     margin-left: 80px;
     margin-right: 80px;
+    border-radius: 10px;
 }
 
 /* New Task */
@@ -45,4 +49,36 @@ body {
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 10px;
+}
+
+.Editorial {
+    color: #ffffff;
+    font-size: small;
+    background-color: #47ADF1;
+}
+
+.style {
+    font-size: small;
+    color: #ffffff;
+    border-radius: 800rem;
+}
+
+.Goals {
+    background-color: blueviolet;
+}
+
+.Recruiting {
+    background-color: #64C0A9;
+}
+
+.Mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
 }
