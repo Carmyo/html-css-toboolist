@@ -1,5 +1,6 @@
+/* header */
 header {
-    height: max-content;
+
     background-color: #ff0000;
     background-image: url(../img/Logo.png);
     background-repeat: no-repeat;
@@ -10,10 +11,38 @@ h1 {
     padding-top: 5px;
 }
 
+/* /header*/
+
 body {
     background-color: #f6f8f9b;
 }
 
-div {
-    background-color: aqua;
+body {
+    background-color: #f6f8f9;
+}
+
+/* button */
+#task {
+    color: #ffffff;
+    background-color: #47ADF1;
+}
+
+#section {
+    color: rgb(163, 162, 162);
+}
+
+#button {
+    background-color: black;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* New Task */
+
+#list {
+    background-color: chartreuse;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
 }
