@@ -1,0 +1,19 @@
+header {
+    height: max-content;
+    background-color: #ff0000;
+    background-image: url(../img/Logo.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+body {
+    background-color: #f6f8f9b;
+}
+
+div {
+    background-color: aqua;
+}
