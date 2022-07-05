@@ -1,7 +1,7 @@
 /* header */
 header {
 
-    background-color: #ff0000;
+    background-color: #ffffff;
     background-image: url(../img/Logo.png);
     background-repeat: no-repeat;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 #button {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin-left: 80px;
     margin-right: 80px;
@@ -45,7 +45,7 @@ body {
 /* New Task */
 
 #list {
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 10px;
