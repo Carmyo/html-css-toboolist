@@ -1,6 +1,12 @@
 /* header */
-header {
+/** {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
 
+header {
+    height: 55px;
     background-color: #ffffff;
     background-image: url(../img/Logo.png);
     background-repeat: no-repeat;
@@ -14,7 +20,8 @@ h1 {
 /* /header*/
 
 body {
-    background-color: #f6f8f9b;
+    font-family: sans-serif;
+    background-color: #f6f8f9;
 }
 
 body {
@@ -25,32 +32,28 @@ body {
 #task {
     color: #ffffff;
     background-color: #47ADF1;
-    padding-left: 50px;
-
-}
-
-#section {
-    color: rgb(163, 162, 162);
-    border-radius: 1px;
+    border-radius: 5px;
+    padding: -10px;
 }
 
 #button {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
     border-radius: 10px;
+    padding-left: 50px;
+    margin: 30px 80px 2px;
 }
-
-/* New Task */
 
 #list {
     background-color: rgb(255, 255, 255);
-    margin-left: 80px;
-    margin-right: 80px;
+    padding: 10px;
     border-radius: 10px;
+    padding-left: 50px;
+    margin: 0px 80px;
+
 }
 
+/* New Task */
 .Editorial {
     color: #ffffff;
     font-size: small;
@@ -61,6 +64,7 @@ body {
     font-size: small;
     color: #ffffff;
     border-radius: 800rem;
+    padding: 5px 20px;
 }
 
 .Goals {
@@ -81,4 +85,18 @@ body {
 
 .sales {
     background-color: #B0C926;
+}
+
+.check {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 1px 3px;
+    color: greenyellow;
+}
+
+.cross {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 1px 3px;
+    color: red;
 }
